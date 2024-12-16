@@ -51,7 +51,7 @@ class GPT(BaseModel):
     def _get_response(self, system_prompt, user_prompt):
         try:
             response = self.client.chat.completions.create(
-                model="gpt-4o",
+                model="gpt-4o-2024-05-13",
                 messages=[
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt},

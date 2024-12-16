@@ -14,7 +14,7 @@ def transform_labels(group_label, emotions):
 label_info = {0: 'neutral', 1: 'joyful', 2: 'peaceful', 3: 'powerful', 4: 'scared', 5: 'mad', 6: 'sad'}
 group_label = {0:['neutral'], 1: ['joyful','peaceful','powerful'], 2: ['scared','mad','sad']}
 group_label_info = {0: 'positive', 1: 'negative', 2: 'neutral'}
-with open('../data/emorynlp.pkl', 'rb') as f:
+with open('../data/emorynlp/emorynlp.pkl', 'rb') as f:
 	data = pickle.load(f)
 sentence_data = data[2]
 label_data = data[1]

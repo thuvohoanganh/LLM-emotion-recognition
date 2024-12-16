@@ -1,6 +1,9 @@
 import subprocess
+import sys
 
 model_parameters = ['GPT4o']
+# persona_type = 'persona-none'
+persona_type = 'persona-expert'
 
 # Dataset and parameters setting
 tasks = [
@@ -11,7 +14,7 @@ tasks = [
         'TQ': ['emobench-Clear', 'emobench-EmDe', 'emobench-Ana'],
         'CT': 'emobench',
         'OI': 'emobench',
-        'SI': 'persona-none',
+        'SI': persona_type,
         'PS_base': 'emobench'
     },
     {
@@ -21,7 +24,7 @@ tasks = [
         'TQ': ['goemotion-Clear', 'goemotion-EmDe', 'goemotion-Ana'],
         'CT': 'goemotion',
         'OI': 'goemotion',
-        'SI': 'persona-none',
+        'SI': persona_type,
         'PS_base': 'goemotion'
     },
     {
@@ -31,7 +34,7 @@ tasks = [
         'TQ': ['dreaddit-Clear', 'dreaddit-EmDe', 'dreaddit-Ana'],
         'CT': 'dreaddit',
         'OI': 'dreaddit',
-        'SI': 'persona-none',
+        'SI': persona_type,
         'PS_base': 'dreaddit'
     },
     {
@@ -41,7 +44,7 @@ tasks = [
         'TQ': ['cssrs-Clear', 'cssrs-EmDe', 'cssrs-Ana'],
         'CT': 'cssrs',
         'OI': 'cssrs',
-        'SI': 'persona-none',
+        'SI': persona_type,
         'PS_base': 'cssrs'
     },
     {
@@ -51,7 +54,7 @@ tasks = [
         'TQ': ['sdcnl-Clear', 'sdcnl-EmDe', 'sdcnl-Ana'],
         'CT': 'sdcnl',
         'OI': 'sdcnl',
-        'SI': 'persona-none',
+        'SI': persona_type,
         'PS_base': 'sdcnl'
     }
 ]
@@ -84,7 +87,7 @@ def generate_commands(max_rows=200):
 
 def run_command_for_model(model, commands):
     for command in commands:
-        full_command = ['python', 'systematic_evaluation.py', '--models', model] + command
+        full_command = [sys.executable, 'systematic_evaluation.py', '--models', model] + command
         print(f"Running command for model {model}: {' '.join(full_command)}")
 
         try:

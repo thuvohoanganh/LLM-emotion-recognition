@@ -4,7 +4,7 @@ from datasets import Dataset
 
 label_info = {0: 'happy', 1: 'sad', 2: 'neutral', 3: 'angry', 4: 'excited', 5: 'frustrated'}
 
-with open('../data/iemocap.pkl', 'rb') as f:
+with open('../data/iemocap/iemocap.pkl', 'rb') as f:
 	data = pickle.load(f)
 sentence_data = data[2]
 label_data = data[1]

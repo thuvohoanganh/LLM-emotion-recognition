@@ -161,6 +161,6 @@ cython_debug/
 #.idea/
 
 .idea/
-results/
+results*/
 gen_v2/api_keys.json
 gen_v2/make_graph/
