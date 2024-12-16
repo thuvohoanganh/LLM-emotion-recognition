@@ -1,0 +1,11 @@
+{
+
+      "emobench_stmliO": "Analyze the scenario, paying close attention to the emotions the subject is experiencing, and explain why \"{subject}\" may feel \"{label_text}\" in the scenario. This is very important to my career.\n\n",
+      "emobench_stmliX" : "Analyze the scenario, paying close attention to the emotions the subject is experiencing, and explain why \"{subject}\" may feel \"{label_text}\" in the scenario.\n\n",
+      "goemotion_stmliO": "Analyze the Reddit post, focusing on the emotions expressed, and explain why the predicted label \"{label_text}\" best represents the overall sentiment of the post. This is very important to my career.\n\n",
+      "goemotion_stmliX": "Analyze the Reddit post, focusing on the emotions expressed, and explain why the predicted label \"{label_text}\" best represents the overall sentiment of the post.\n\n"
+}
+
+
+
+

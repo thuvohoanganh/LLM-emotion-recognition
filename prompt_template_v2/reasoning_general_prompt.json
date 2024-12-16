@@ -1,0 +1,10 @@
+{
+  "few_shot": {
+    "system": "###Persona###\n{system_instruction}\n\n###Task Instruction###\n{task_query}\n\n",
+    "user": "###Guide###\n{few_shot}{prompt_strategy}\n\n###Input###\n{context}\n\n###Output###\n{output_indicator}\n"
+  },
+  "zero_shot" : {
+    "system": "###Persona###\n{system_instruction}\n\n###Task Instruction###\n{task_query}\n\n",
+    "user": "###Guide###\n{few_shot}{prompt_strategy}\n\n###Input###\n{context}\n\n###Output Requirements###\n{output_indicator}\n"
+  }
+}

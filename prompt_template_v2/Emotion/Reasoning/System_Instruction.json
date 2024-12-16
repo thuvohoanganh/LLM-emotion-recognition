@@ -1,0 +1,8 @@
+{
+
+  "persona" : {
+    "none": "",
+    "expert" : "You are an expert in understanding and analyzing emotions within the text. Your task is to evaluate the text and precisely identify the emotions conveyed.\\n\\n"
+  }
+
+}

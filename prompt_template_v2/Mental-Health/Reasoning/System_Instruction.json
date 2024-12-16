@@ -1,0 +1,8 @@
+{
+
+  "persona" : {
+    "none": "",
+    "expert" : "You are an expert in understanding and _analyzing a person’s mental state within the text. Your task is to evaluate the text and precisely analyze the mental state of the writer.\n\n"
+  }
+
+}

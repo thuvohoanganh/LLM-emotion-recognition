@@ -1,0 +1,8 @@
+{
+    "cssrs_stmliX": "Analyze the post, paying close attention to the writer's mental state, emotional expressions, and underlying thoughts. Based on this analysis, explain why the predicted label \"{label_text}\" best represents the overall mental state of the writer.\n\n",
+    "dreaddit_stmliX": "Analyze the post, paying close attention to the writer's mental state, emotional expressions, and underlying thoughts. Based on this analysis, explain why the predicted label \"{label_text}\" is the best answer to the question.\n\n",
+    "sdcnl_stmliX": "Analyze the post, paying close attention to the mental state, emotional expressions, and underlying thoughts. Based on this analysis, explain why the predicted label \"{label_text}\" best represents the overall mental state of the writer.\n\n.",
+    "cssrs_stmliO": "Analyze the post, paying close attention to the writer's mental state, emotional expressions, and underlying thoughts. Based on this analysis, explain why the predicted label \"{label_text}\" best represents the overall mental state of the writer. This is very important to my career.\n\n",
+    "dreaddit_stmliO": "Analyze the post, paying close attention to the writer's mental state, emotional expressions, and underlying thoughts. Based on this analysis, explain why the predicted label \"{label_text}\" is the best answer to the question. This is very important to my career.\n\n",
+    "sdcnl_stmliO": "Analyze the post, paying close attention to the mental state, emotional expressions, and underlying thoughts. Based on this analysis, explain why the predicted label \"{label_text}\" best represents the overall mental state of the writer. This is very important to my career.\n\n"
+}

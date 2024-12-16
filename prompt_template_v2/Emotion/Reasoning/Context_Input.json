@@ -1,0 +1,9 @@
+{
+  "iemocap_defX": "",
+  "iemocap_defO": "",
+  "emobench" : "Scenario: \"{context}\"\nChoices: \"{label_list}\"\n.{subject}'s feeling: \"{label_text}\n\n",
+  "goemotion" : "Post: {context}\"\nChoices:\"{label_list}\"\nPredicted Label: \"{label_text}\n\n"
+
+
+}
+

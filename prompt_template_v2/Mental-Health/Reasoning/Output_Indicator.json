@@ -1,0 +1,6 @@
+{
+  "none": "",
+  "cssrs": "Generate a detailed text response based solely on the scenario provided. Your response must include 'Explanation: ' followed by the explanation and 'Confidence Score: ' followed by a score from 0 to 1 indicating your confidence.\n\n###Explanation: \n\n###Confidence Score: \n\n",
+  "dreaddit": "Generate a detailed text response based solely on the scenario provided. Your response must include 'Explanation: ' followed by the explanation and 'Confidence Score: ' followed by a score from 0 to 1 indicating your confidence.\n\n###Explanation: \n\n###Confidence Score: \n\n",
+  "sdcnl": "Generate a detailed text response based solely on the scenario provided. Your response must include 'Explanation: ' followed by the explanation and 'Confidence Score: ' followed by a score from 0 to 1 indicating your confidence.\n\n###Explanation: \n\n###Confidence Score: \n\n"
+}
