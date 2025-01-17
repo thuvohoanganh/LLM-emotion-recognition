@@ -12,7 +12,7 @@ This is the official implementation of Prompt Modularization & Emotion Recogniti
 
 ## Setup environment
 if you use Window and cannot install transformers, Install Rust.
-Python version have to be 3.11.x~3.10.x. Pytorch does not support 3.13.0. You can install veriosn 3.10.14
+Python version have to be 3.11.x~3.10.x. Pytorch does not support 3.13.0. You can install veriosn 3.10.14 or 3.11.6
 If using Visual Studio Code instead of Pycharm, in file Efficient_auto_run change line
         full_command = ['python', 'systematic_evaluation.py', '--models', model] + command
 -->     full_command = [sys.executable, 'systematic_evaluation.py', '--models', model] + command
