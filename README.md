@@ -77,3 +77,4 @@ Also, within the if __name__ == '__main__' block, adjust the base_folder_path to
 
 The evaluated results will be generated in the same location as the results folder.
 
+Author: Taemin https://github.com/taemin6697/taemin6697-KAIST-Internship_summer24
